@@ -1,0 +1,12 @@
+rtklib for Debian
+----------------
+
+Updated with version 3.4.3b31 from Jens Reiman
+
+ -- John Ackermann <jra@febo.com>  Sat, 27 Apr 2019 10:20:21 -0500
+
+The original project is at https://github.com/tomojitakasu/RTKLIB however
+it's still missing the QT patches from Jens Reimann.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Wed, 24 Aug 2016 17:09:30 +0200
+

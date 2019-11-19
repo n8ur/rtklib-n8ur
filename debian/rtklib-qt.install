@@ -1,0 +1,10 @@
+app/srctblbrows_qt/srctblbrows_qt usr/bin
+app/rtklaunch_qt/rtklaunch_qt usr/bin
+app/strsvr_qt/strsvr_qt usr/bin
+app/rtkget_qt/rtkget_qt usr/bin
+app/rtkconv_qt/rtkconv_qt usr/bin
+app/rtkpost_qt/rtkpost_qt usr/bin
+app/rtknavi_qt/rtknavi_qt usr/bin
+app/rtkplot_qt/rtkplot_qt usr/bin
+./README-Config_Files.txt usr/share/doc/rtklib-qt
+./readme.txt usr/share/doc/rtklib-qt

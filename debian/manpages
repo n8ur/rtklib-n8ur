@@ -1,0 +1,6 @@
+debian/convbin.1
+debian/pos2kml.1
+debian/rnx2rtkp.1
+debian/rtkrcv.1
+debian/str2str.1
+debian/rnx2rtcm.1

@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+# See debhelper(7) (uncomment to enable)
+# output every command that modifies files on the build system.
+#export DH_VERBOSE = 1
+
+# see FEATURE AREAS in dpkg-buildflags(1)
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+# see ENVIRONMENT in dpkg-buildflags(1)
+# package maintainers to append CFLAGS
+#export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
+# package maintainers to append LDFLAGS
+#export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+export QT_SELECT=qt5
+DIRS = pos2kml str2str rnx2rtkp convbin rtkrcv
+
+%:
+	dh $@
+
+
+#	needed patches: https://github.com/Rescube/RTKLIB/commit/a4d665a2c6384ff270d1bfe6e6bcb5f0f3b1066c
+override_dh_auto_build:
+	$(MAKE) -C lib/iers/gcc
+	$(MAKE) -C util/rnx2rtcm
+	for i in $(DIRS); do $(MAKE) -C app/$$i/gcc; done
+	dh_auto_build
+	dh_shlibdeps
+
+override_dh_clean:
+	$(MAKE) -C util/rnx2rtcm clean
+	$(MAKE) -C lib/iers/gcc clean
+	dh_clean

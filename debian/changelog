@@ -1,0 +1,19 @@
+rtklib (2.4.3b31+dfsg1-1) UNRELEASED; urgency=medium
+
+  * Update to Jens Riemann's version 2.4.3b31
+  * Change config file structure for Linux (see README-Config_Files.txt)
+  * Added "-DLINUX" to enable above
+  * Fix rtkplot_qt busy loop
+  * Change Google Maps interface -- html content no longer contained
+    in rtklib_gm.htm but instead in app/appcmn_qt/gm_template.h so
+    external file is not required at runtime
+  * Minor updates
+  * Other fixes
+
+ -- John Ackermann N8UR <jra@febo.com>  Mon, 06 May 2019 10:36:38 -0400
+
+rtklib (2.4.3+dfsg1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #835415)
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Fri, 08 Dec 2017 22:46:05 +0100

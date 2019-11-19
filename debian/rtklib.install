@@ -1,0 +1,19 @@
+app/pos2kml/gcc/pos2kml usr/bin
+app/str2str/gcc/str2str usr/bin
+app/rnx2rtkp/gcc/rnx2rtkp usr/bin
+app/convbin/gcc/convbin usr/bin
+app/rtkrcv/gcc/rtkrcv usr/bin
+util/rnx2rtcm/rnx2rtcm usr/bin
+data/stations.pos usr/share/rtklib
+data/S*.txt usr/share/rtklib
+data/U*.txt usr/share/rtklib
+data/g*.txt usr/share/rtklib
+data/e*.txt usr/share/rtklib
+data/TLE_G*.txt usr/share/rtklib
+data/*.DCB usr/share/rtklib
+data/*.pcv usr/share/rtklib
+data/*.snx usr/share/rtklib
+lib/libRTKLib* /usr/lib
+./README-Config_Files.txt usr/share/doc/rtklib
+./readme.txt usr/share/doc/rtklib
+

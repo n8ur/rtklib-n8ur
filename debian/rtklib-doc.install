@@ -1,0 +1,4 @@
+doc/manual_2.4.2.pdf usr/share/doc/rtklib-doc
+./README-Config_Files.txt usr/share/doc/rtklib-doc
+./readme.txt usr/share/doc/rtklib-doc
+

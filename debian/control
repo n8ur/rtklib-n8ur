@@ -1,0 +1,31 @@
+Source: rtklib
+Section: misc
+Priority: optional
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Gürkan Myczko <gurkan@phys.ethz.ch>
+Build-Depends: debhelper (>=10), libparse-debianchangelog-perl, liblapack-dev, libblas-dev, qtbase5-dev, qt5-qmake, qtbase5-dev-tools, libqt5serialport5-dev, libpng-dev
+Standards-Version: 4.1.2
+Homepage: http://gpspp.sakura.ne.jp/rtklib/rtklib.htm
+
+Package: rtklib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Real Time Kinematic and other advanced GPS positioning techniques
+ This is an program package for standard and precise positioning with GNSS
+ (global navigation satellite system).
+
+Package: rtklib-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Tools for standard and precise positioning with GNSS QT interface
+ This is an program package for standard and precise positioning with GNSS
+ (global navigation satellite system).
+ .
+ These are the GUI parts of the tool.
+
+Package: rtklib-doc
+Section: doc
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Real Time Kinematic and advanced GPS positioning techniques manual
+ This is the manual for RTKLIB.

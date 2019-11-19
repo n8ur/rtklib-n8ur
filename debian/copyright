@@ -1,0 +1,157 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: rtklib
+Source: https://github.com/JensReimann/rtklib-qt
+
+Files: *
+Copyright: 2006-2016 Tomoji Takasu <ttaka@gpspp.sakura.ne.jp>
+           2014 Daniel A. Cook
+           2014 T. Suzuki
+           2013 Fabrizio Tappero
+License: BSD-2-clause
+
+Files: app/*qt/*
+Copyright: 2014-2016 Jens Reimann
+License: BSD-2-clause
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+ .
+ - Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ .
+ - Redistributions in binary form must reproduce the above copyright notice, this
+   list of conditions and the following disclaimer in the documentation and/or
+   other materials provided with the distribution.
+ .
+ - The software package includes some companion executive binaries or shared
+   libraries necessary to execute APs on Windows. These licenses succeed to the
+   original ones of these software. 
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+ THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: app/*_qt/qwebchannel.js
+Copyright: 2014 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com, author Milian Wolff <milian.wolff@kdab.com>
+           2015 The Qt Company Ltd.
+License: LGPL-2.1+
+ Commercial License Usage
+ Licensees holding valid commercial Qt licenses may use this file in
+ accordance with the commercial license agreement provided with the
+ Software or, alternatively, in accordance with the terms contained in
+ a written agreement between you and The Qt Company. For licensing terms
+ and conditions see http://www.qt.io/terms-conditions. For further
+ information use the contact form at http://www.qt.io/contact-us.
+ .
+ GNU Lesser General Public License Usage
+ Alternatively, this file may be used under the terms of the GNU Lesser
+ General Public License version 2.1 or version 3 as published by the Free
+ Software Foundation and appearing in the file LICENSE.LGPLv21 and
+ LICENSE.LGPLv3 included in the packaging of this file. Please review the
+ following information to ensure the GNU Lesser General Public License
+ requirements will be met: https://www.gnu.org/licenses/lgpl.html and
+ http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ .
+ As a special exception, The Qt Company gives you certain additional
+ rights. These rights are described in The Qt Company LGPL Exception
+ version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
+
+Files: lib/iers/*
+Copyright: 2005-2010 J. Boehm
+           2005-2010 B.E. Stetzler
+           2008 IERS Conventions Center
+License: IERS-Conventions-Software
+ BY USING THIS SOFTWARE YOU ACCEPT THE FOLLOWING TERMS AND CONDITIONS
+ WHICH APPLY TO ITS USE.
+ .
+ 1. The Software is provided by the IERS Conventions Center ("the
+    Center").
+ .
+ 2. Permission is granted to anyone to use the Software for any
+    purpose, including commercial applications, free of charge,
+    subject to the conditions and restrictions listed below.
+ .
+ 3. You (the user) may adapt the Software and its algorithms for your
+    own purposes and you may distribute the resulting "derived work"
+    to others, provided that the derived work complies with the
+    following requirements:
+ .
+     a) Your work shall be clearly identified so that it cannot be
+        mistaken for IERS Conventions software and that it has been
+        neither distributed by nor endorsed by the Center.
+ .
+     b) Your work (including source code) must contain descriptions of
+        how the derived work is based upon and/or differs from the
+        original Software.
+ .
+     c) The name(s) of all modified routine(s) that you distribute
+        shall be changed.
+ .
+     d) The origin of the IERS Conventions components of your derived
+        work must not be misrepresented; you must not claim that you
+        wrote the original Software.
+ .
+     e) The source code must be included for all routine(s) that you
+        distribute.  This notice must be reproduced intact in any
+        source distribution.
+ .
+ 4. In any published work produced by the user and which includes
+    results achieved by using the Software, you shall acknowledge
+    that the Software was used in obtaining those results.
+ .
+ 5. The Software is provided to the user "as is" and the Center makes
+    no warranty as to its use or performance.   The Center does not
+    and cannot warrant the performance or results which the user may
+    obtain by using the Software.  The Center makes no warranties,
+    express or implied, as to non-infringement of third party rights,
+    merchantability, or fitness for any particular purpose.  In no
+    event will the Center be liable to the user for any consequential,
+    incidental, or special damages, including any lost profits or lost
+    savings, even if a Center representative has been advised of such
+    damages, or for any claim by any third party.
+ .
+ Correspondence concerning IERS Conventions software should be
+ addressed as follows:
+ .
+                     Gerard Petit
+     Internet email: gpetit[at]bipm.org
+     Postal address: IERS Conventions Center
+                     Time, frequency and gravimetry section, BIPM
+                     Pavillon de Breteuil
+                     92312 Sevres  FRANCE
+ .
+     or
+ .
+                     Brian Luzum
+     Internet email: brian.luzum[at]usno.navy.mil
+     Postal address: IERS Conventions Center
+                     Earth Orientation Department
+                     3450 Massachusetts Ave, NW
+                     Washington, DC 20392
+
+Files: debian/*
+Copyright: 2016 Gürkan Myczko <gurkan@phys.ethz.ch>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
