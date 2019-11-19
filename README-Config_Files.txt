@@ -1,5 +1,5 @@
-Under Linux, the RTKLIB programsnding store their configuration in
-$HOME/.<executable_filename>.conf
+Under Linux, this version of the RTKLIB programs store their configuration 
+in $HOME/.<executable_filename>.conf
 
 The location and name of the configuration file may be overridden via 
 the -i switch on the command line.
